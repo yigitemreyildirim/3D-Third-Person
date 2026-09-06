@@ -1,0 +1,20 @@
+integrated into the character
+Hierarchy > Right Click > 3D object > capsule
+rename this capsule to Character 
+Hierarchy > Right Click > Create Empty
+rename it to CameraRig
+set position x = 0 , y = 6 , z = 0;
+Put Main Camera inside CameraRig
+select main camera and set position like that (example : X = 0 Y = 1.7 Z = -3 )
+create a new folder inside assets (Scripts) and create a script into Scripts Project > Right Click > Create > MonoBehaviour Script 
+rename this MonoBehaviour Script folder ThirdPersonCamera
+open it and copy my camera script and save it
+drag this script to to main camera 
+There is a Target field in the ThirdPersonCamera script, drag and drop the character object here.
+create a new folder inside assets (Scripts) and create again a script into Scripts Project > Right Click > Create > MonoBehaviour Script 
+rename this script to ThirdPersonMovement
+open it and copy my player movement script and save it
+drag this script to the character in the hierarchy
+select charactrer object in hierarchy
+add component > rigidbody > enable to use gravity be careful to disable kinematic
+finish :D you're welcome

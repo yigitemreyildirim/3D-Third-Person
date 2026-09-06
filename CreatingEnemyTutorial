@@ -1,0 +1,16 @@
+Hierarchy > Create > 3D Object > Capsule
+Hierarchy > Right Click > 3D object > capsule
+rename this capsule to Enemy 
+set the position of this enemy capsule in front of the character capsule (Ex : x = -0.86 Y : 6 Z 15.5)
+create a new folder inside assets (Scripts) and create a script into Scripts Project > Right Click > Create > MonoBehaviour Script 
+rename this MonoBehaviour Script folder enemyvisionscript 
+open it and copy my enemyvision script and save it(ctrl+s)
+drag this script to to enemy capsule
+create a new folder inside assets (Metarials) and create a metarial 2 times into Metarial Project > Metarial > Right Click > Create > Metarial
+change their names : Detected , Normal
+click to new metarial project > metarial > Detected > Surface Inputs > change color to red
+click to new metarial project > metarial > Normal > Surface Inputs > change color to green
+Hierarchy > Enemy capsulue > Inspector > enemy vision script > drag normal metarial to here  
+Hierarchy > Enemy capsulue > Inspector > enemy vision script > drag detected metarial to here  
+Hierarchy > Enemy capsulue > Inspector > enemy vision script > Obstacle Mask > Ground(place) , any obstacle
+Hierarchy > Enemy capsulue > Inspector > enemy vision script > Player > character 
